@@ -127,7 +127,7 @@ blockquote {
     border-radius: 12px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background-color: #f3f3f3;
+    background-color: #F2F2F2;
 }
 
     blockquote cite {
@@ -1046,13 +1046,14 @@ th {
 }
 
 code {
+    background-color: #101010;
+    color: #f0f0f0;
     white-space: nowrap;
     display: inline;
 }
 
 code, tt {
-    background-color: #F8F8F8;
-    border: 1px solid #EAEAEA;
+    border: 1px solid black;
     border-radius: 3px 3px 3px 3px;
     margin: 0 2px;
     padding: 0 5px;
@@ -1071,6 +1072,8 @@ pre {
 }
 
     pre code {
+        background-color: transparent;
+        color: black;
         border: none;
         white-space: pre;
         padding: 0;

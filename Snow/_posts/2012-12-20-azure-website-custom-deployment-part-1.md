@@ -2,6 +2,7 @@
 layout: post
 title: Custom Deployment Scripts For Windows Azure Website Using Git Deployment
 category: Windows Azure Websites
+url: /post/38417491924/azurewebsitecustomdeploymentpart1
 series:
 	name: WAWSCustomizeDeployment
 	current: 1
@@ -9,17 +10,6 @@ series:
 	part: Part 2 - Custom script generator
 	part: Part 3 - Custom script generator
 ---
-
-----------
-
-> **This is part 1 of 3 for Windows Azure Websites - Custom Deployments**
->
-> * Part 1 - Introduction to custom deployment
-> * [Part 2](http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2) - Custom script generator
-> * [Part 3](http://blog.amitapple.com/post/38419111245/azurewebsitecustomdeploymentpart3) - Custom deployment using the custom script generator sample
-
-----------
-
 
 The coolest feature on Windows Azure Websites is the ability to deploy your website using git.
 Do a `git push` and bam you're done and deployed within seconds.
@@ -56,4 +46,4 @@ This script will copy all of the files from your repository to the wwwroot direc
 But to make things easier, you can use the azure-cli tool which will actually generate a deployment script for you that will do exactly the same deployment process as the default one but now you are able to update that script and add (or remove) your own steps.
 
 More on that in the next post:
-[Custom Deployments Script Generator](http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2)
+[Custom Deployments Script Generator](/post/38418009331/azurewebsitecustomdeploymentpart2)

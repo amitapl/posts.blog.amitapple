@@ -2,6 +2,7 @@
 layout: post
 title: Customizing site deployment based on site's app settings in Azure Websites
 category: Windows Azure Websites
+url: /post/38419111245/azurewebsitecustomdeploymentpart3
 series:
 	name: WAWSCustomizeDeployment
 	current: 3
@@ -10,17 +11,7 @@ series:
 	part: Part 3 - Custom script generator
 ---
 
-----------
-
-> **This is part 3 of 3 for Windows Azure Websites - Custom Deployments**
->
-> * [Part 1](http://blog.amitapple.com/post/38417491924/azurewebsitecustomdeploymentpart1) - Introduction to custom deployment
-> * [Part 2](http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2) - Custom script generator
-> * Part 3 - Custom script generator
-
-----------
-
-**In** previous posts I talked about [Windows Azure Website's custom deployment feature](http://blog.amitapple.com/post/38417491924/azurewebsitecustomdeploymentpart1) and the [tool to easily generate a deployment script](http://blog.amitapple.com/post/38418009331/azurewebsitecustomdeploymentpart2), in this post I'll do a step by step guide on writing a custom deployment script.
+**In** previous posts I talked about [Windows Azure Website's custom deployment feature](/post/38417491924/azurewebsitecustomdeploymentpart1) and the [tool to easily generate a deployment script](/post/38418009331/azurewebsitecustomdeploymentpart2), in this post I'll do a step by step guide on writing a custom deployment script.
 
 Let's say we have two websites in azure, one is a node.js website and the other is an mvc4 web application, both sites sources are in the same repository so we need a deployment script that handles differently based on which website it is deploying.
 

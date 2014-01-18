@@ -2,6 +2,7 @@
 layout: post
 title: Sending an email when your Azure web site deployment completes
 category: Windows Azure Websites
+url: /post/56390805814/deployment-email
 ---
 
 Windows Azure Web Sites have a new support for web hooks, currently the only event that is directly being invoked is called **PostDeployment** and it will be invoked whenever a deployment is complete with the result of that deployment.

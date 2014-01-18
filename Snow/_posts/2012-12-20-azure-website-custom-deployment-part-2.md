@@ -2,6 +2,7 @@
 layout: post
 title: Windows Azure Websites - Custom Deployment Scripts Generator
 category: Windows Azure Websites
+url: /post/38418009331/azurewebsitecustomdeploymentpart2
 series:
 	name: WAWSCustomizeDeployment
 	current: 2
@@ -9,17 +10,6 @@ series:
 	part: Part 2 - Custom script generator
 	part: Part 3 - Custom script generator
 ---
-
-----------
-
-> **This is part 2 of 3 for Windows Azure Websites - Custom Deployments**
->
-> * [Part 1](http://blog.amitapple.com/post/38417491924/azurewebsitecustomdeploymentpart1) - Introduction to custom deployment
-> * Part 2 - Custom script generator
-> * [Part 3](http://blog.amitapple.com/post/38419111245/azurewebsitecustomdeploymentpart3) - Custom deployment using the custom script generator sample
-
-----------
-
 
 **With** Windows Azure Websites you can deploy your website by simply pushing your git repository, this will automatically deploy your website, and if you want to control this deployment flow you can use the custom deployment feature.
 
@@ -76,4 +66,4 @@ After adding your own logic to the deployment script you can run in locally and 
 
 When the script is tested, add the generated files to your repository (.deployment and deploy.cmd, for node also web.config and iisnode.yml) and push your repository to your windows azure website and see your custom deployment running.
 
-[Next post a step by step on a specific custom script](http://blog.amitapple.com/post/38419111245/azurewebsitecustomdeploymentpart3).
+[Next post a step by step on a specific custom script](/post/38419111245/azurewebsitecustomdeploymentpart3).

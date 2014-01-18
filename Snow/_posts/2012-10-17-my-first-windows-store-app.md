@@ -2,7 +2,7 @@
 layout: post
 title: My First Windows Store App - חדשות  8
 category: Windows 8
-url: /aaa/bbb
+url: /post/33776906129/myfirstwindowsstoreapp
 ---
 
 Just published my first windows 8 app to the store, it is a news reader in Hebrew.
